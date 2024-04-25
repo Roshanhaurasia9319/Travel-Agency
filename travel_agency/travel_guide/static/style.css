@@ -1,0 +1,99 @@
+
+
+
+.container{
+    border: 2px solid rgb(4, 0, 255);
+    border-radius: 1pc;
+    margin: 2px auto;
+    background-color: aqua;
+}
+.container button{
+    background-color: rgb(3, 102, 252);
+    color: aliceblue;
+    padding: 2px;
+    margin: 2px;
+}
+.container button:hover{
+    background-color: rgb(15, 105, 15);
+    color: aliceblue;
+    padding: 10px;
+    box-shadow: 2px 2px 4px 4px  black;
+}
+
+p{
+    font-size: 4rem;
+}
+button > a{
+    color: aliceblue;
+    text-decoration: unset;
+}
+
+
+.container2 > h1{
+   text-align: center;
+   margin: 2rem;
+   text-shadow: 2px 2px rgb(0, 238, 255);
+   text-decoration: underline;
+}
+
+.box1 >  h2{
+      text-align: center;
+      font-size: 4rem;
+      color: rgb(255, 94, 0);
+      text-shadow: 2px 2px rgb(255, 230, 0);
+}
+.box1 > p{
+    font-size: unset;
+}
+.box1{
+    text-align: start;
+    display:flow-root;
+    padding: 1rem;
+}
+.box1 > a > img{
+    float: left;
+    border-radius: 30pc;
+    
+}
+.box1 > a >img:hover{
+    box-shadow:4px 4px 12px 12px rgba(236, 158, 12, 0.575);
+}
+
+
+
+
+
+
+.box2 >  h2{
+    text-align: center;
+    font-size: 4rem;
+    color: rgb(255, 94, 0);
+    text-shadow: 2px 2px rgb(255, 230, 0);
+}
+.box2 > p{
+  font-size: unset;
+}
+.box2{
+  text-align: start;
+  display:flow-root;
+  padding: 1rem;
+}
+.box2 > a > img{
+  float: right;
+  border-radius: 30pc;
+  
+}
+.box2 > a > img:hover{
+    box-shadow: 4px 4px 12px 12px black;
+}
+
+footer{
+    border: 2px solid  rgba(0, 0, 0, 0.466);
+    display: flex;
+   justify-content: center;
+   color: aliceblue;
+   background-color: rgba(0, 0, 0, 0.466);
+}
+footer p{
+    font-size: unset;
+}

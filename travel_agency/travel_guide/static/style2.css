@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container2 h1 {
+    text-align: center;
+    margin: 20px auto;
+    font-weight: bolder;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.container2 h2 {
+    text-align: center;
+    margin: 10px auto;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+.container2 .box1 {
+    display: flex;
+    text-align: center;
+
+    padding: 20px;
+    gap: 20px;
+}
+
+.box1 a {
+    justify-content: flex-start;
+}
+.box1 a img:hover {
+   background-color: blue;
+}
+
+.box1 a img {
+    border-radius: 18%;
+    cursor: pointer;
+}
+
+
+
+.container2 .para {
+    max-width: 70vw;
+    justify-content: flex-end;
+
+}
